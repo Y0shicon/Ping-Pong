@@ -286,7 +286,7 @@ def defineDefault():
     pauseText = textOnScreen('PAUSED', 100, (255,255,255), 450, 300)
 
     #Load Music
-    music_folder = 'D:/More Python Projects/Games/Ping Pong/Music'
+    music_folder = './Music'
     musicList = os.listdir(music_folder)
     random.shuffle(musicList)
     pygame.mixer.music.load(music_folder + '/' + musicList[0] )
